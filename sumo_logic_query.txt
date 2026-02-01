@@ -1,0 +1,11 @@
+_sourceCategory =webapp/logs
+
+|json field = _raw "path", "response_time"
+
+|where path = "api/data"
+
+|where response_time > 3000
+
+count by  _tmeslice
+
+

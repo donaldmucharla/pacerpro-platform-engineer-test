@@ -1,0 +1,12 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/lambda.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
